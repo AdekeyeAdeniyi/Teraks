@@ -1,6 +1,14 @@
 .plan{
     background-color: $gray-400;
 
+    p{
+        width: 75%;
+        
+        @include respond(tab-portrait){
+            width: 100%;
+        }
+    }
+
     &-list{
         padding: 2.5rem;
         background-color: $white;

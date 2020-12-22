@@ -2,4 +2,10 @@
     background-color: $gray-400;
     clip-path: ellipse(150% 55% at 48% 44%);
     padding-bottom: 16rem;
+
+    p{
+        @include respond(tab-portrait){
+            margin-bottom: 3rem;
+        }
+    }
 }

@@ -3,5 +3,13 @@
         &:not(:last-child){
             margin-bottom: 2rem;
         }
+
+        .col-md-4{
+           @include respond(tab-portrait){
+                &:not(:last-child){
+                    margin-bottom: 2rem;
+                }
+           } 
+        }
     }
 }

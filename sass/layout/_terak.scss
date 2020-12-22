@@ -17,6 +17,11 @@
     p{
         color:$gray-400;
         margin-left: 6rem;
+        width: 75%;
+
+        @include respond(tab-portrait){
+            width: 100%;
+        }
     }
 
     .btn{
