@@ -1,0 +1,32 @@
+.terak{
+    background-color: $primary-color;
+    margin-top: -8rem;
+    padding-top: 16rem;
+    color: $white;
+    
+
+    h5{
+        margin-bottom: .5rem;
+
+        .iconify{
+            font-size: $h2;
+            margin-right: 1.2rem;
+        }
+    }
+
+    p{
+        color:$gray-400;
+        margin-left: 6rem;
+    }
+
+    .btn{
+        display: flex;
+        margin-top: 5rem;
+        align-items: center;
+
+        .iconify{
+            font-size: $h4;
+            margin-left: 1.2rem;
+        }
+    }
+}

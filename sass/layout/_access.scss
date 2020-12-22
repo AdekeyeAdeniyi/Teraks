@@ -1,0 +1,18 @@
+.access{
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+
+    .row{
+        justify-content: space-between;
+    }
+
+    h5{
+        color: $white;
+    }
+
+    p{
+        margin-top: 2rem;
+        color: $gray-400;
+    }
+}

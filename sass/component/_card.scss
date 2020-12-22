@@ -1,0 +1,27 @@
+.card{
+    min-height: 16rem;
+    cursor: pointer;
+    border-radius: .8rem;
+    padding: 1rem;
+
+    &:not(:last-child){
+        margin-bottom: 1.8rem;
+    }
+
+    &:hover{
+        box-shadow: 2px 2px 4px $gray-400;
+    }
+
+    &-title{
+        line-height: 1.7;
+
+        .iconify{
+            font-size: $h3;
+            margin-right: 1.2rem;
+            background-color: $gray-400;
+            border-radius: .5rem;
+            color: $primary_color--md;
+        }
+
+    }
+}

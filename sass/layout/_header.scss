@@ -1,0 +1,26 @@
+
+.header{
+    background-color: $primary-color;
+    height: 100vh;
+    position: relative;
+
+    .hero-box{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin-top: 10rem;
+
+        p{
+            width: 85%;
+            color: $gray-400;
+        }
+
+        &-svg{
+            background-image: url("../images/hero-image.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

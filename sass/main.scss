@@ -1,0 +1,30 @@
+//Font-family
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+//Import bootstrap components
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Import sass components
+@import "./abstract/variable";
+@import "./abstract/mixins";
+@import "./abstract/utilies";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./component/navbar";
+@import "./component/button";
+@import "./component/card";
+@import "./component/form";
+
+@import "./layout/header";
+@import "./layout/services";
+@import "./layout/section";
+@import "./layout/terak";
+@import "./layout/utitlity";
+@import "./layout/access";
+@import "./layout/plan";
+@import "./layout/testimonies";
+@import "./layout/subscribe";
+@import "./layout/footer";

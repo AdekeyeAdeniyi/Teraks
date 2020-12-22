@@ -1,0 +1,22 @@
+.navbar{
+    background-color: transparent;
+    padding: 1.2rem 0;
+    font-size: $text-sm;
+
+    .nav{
+        &-item{
+            margin-right: 1rem;
+        }
+        &-link{
+            color: $white;
+            text-transform: capitalize;
+            transition: color .4s ease-out;
+
+            &:hover{
+                color: $gray-500;
+
+            }
+        }
+
+    }
+}

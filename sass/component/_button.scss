@@ -1,0 +1,34 @@
+.btn{
+    display: inline-block;
+    padding: .8rem 4.2rem;
+    font-size: $text-sm;
+    font-weight: 500;
+    transition: color .4s;
+    border-radius: .4rem;
+    text-transform: uppercase;
+    
+    &-ghost{
+        background: $white;
+        color: $primary_color--md;
+
+        &:hover{
+            background: lighten($gray-300, 2%);
+            color: $primary_color--md;
+        }
+    }
+    
+    &-secondary{
+        background:  $secondary_color;
+        color: $white;
+        border-color:  $secondary_color;
+
+        &:hover{
+            background:  darken($secondary_color, 5%); 
+        }
+    }
+}
+
+.button-group{
+    display: flex;
+    gap: 2rem;
+}

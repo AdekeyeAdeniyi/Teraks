@@ -1,0 +1,45 @@
+.plan{
+    background-color: $gray-400;
+
+    &-list{
+        padding: 2.5rem;
+        background-color: $white;
+        box-shadow: 2px 2px 4px $gray-400;
+        width: fit-content;
+        list-style: none;
+        font-size: $text-md;
+        color: $gray-600;
+        border-radius: .8rem;
+
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            
+            &:not(:last-child){
+                padding-bottom: 2px;
+                border-bottom: .5px solid $gray-500;
+                margin-bottom: .3rem;
+            }
+            
+            .form-check-input{
+                margin-left: 6rem;
+                position: relative;
+                margin-top: 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .row{
+        align-items: center;
+    }
+
+    .btn{
+        .iconify{
+            font-size: $h4;
+            margin-left: 1.2rem;
+        }
+    }
+}

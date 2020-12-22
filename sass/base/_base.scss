@@ -1,0 +1,34 @@
+//TYPOGRAPHY MANAGEMENT
+
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+    @include respond(tab-landscape){
+        font-size: 56.25%;
+    }
+
+    @include respond(tab-portrait){
+        font-size: 50%;
+    }
+
+
+    @include respond(big-desktop){
+        font-size: 75%;
+    }
+}
+
+body{
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+}
+
